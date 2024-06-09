@@ -14,7 +14,7 @@ function Hero() {
             className="mb-4 lg:text-3xl !leading-tight text-3xl"   placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}          >
-            Selamat Datang di Portofolio Pengembangan Website Saya! TEST
+            Selamat Datang di Portofolio Pengembangan Website Saya! TESTxxx
           </Typography>
           <Typography
             variant="lead"
