@@ -8,17 +8,15 @@ function Hero() {
     <header className="bg-white p-8">
       <div className="container mx-auto grid h-full gap-10 min-h-[60vh] w-full grid-cols-1 items-center lg:grid-cols-2">
         <div className="row-start-2 lg:row-auto">
-          <Typography
+          <Typography 
             variant="h1"
             color="blue-gray"
-            className="mb-4 lg:text-3xl !leading-tight text-3xl"
-          >
+            className="mb-4 lg:text-3xl !leading-tight text-3xl"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             Selamat Datang di Portofolio Pengembangan Website Saya!
           </Typography>
           <Typography
             variant="lead"
-            className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
-          >
+            className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             Saya Affan Haidar. Saya memiliki ketertarikan di bidang
             pengembangan web. Saya memiliki kemampuan bekerja sama dalam tim,
             kreatif, adaptif, dan memiliki kemampuan analisis yang baik. Saya
