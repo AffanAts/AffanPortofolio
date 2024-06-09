@@ -16,7 +16,7 @@ const RESUME_ITEMS = [
   },
   { 
     icon: PuzzlePieceIcon,
-    children: "Certified Web Developer ",
+    children: "Certified Web Developer",
   },
   {
     icon: CursorArrowRaysIcon,
@@ -29,10 +29,21 @@ export function Resume() {
     <section className="px-8 py-24">
       <div className="container mx-auto grid w-full grid-cols-1 items-center gap-16 lg:grid-cols-2">
         <div className="col-span-1">
-          <Typography variant="h2" color="blue-gray"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+          <Typography
+            variant="h2"
+            color="blue-gray"
+            placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
+          >
             My Resume
           </Typography>
-          <Typography className="mb-4 mt-3 w-9/12 font-normal !text-gray-500"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+          <Typography
+            className="mb-4 mt-3 w-9/12 font-normal !text-gray-500"
+            placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
+          >
             Highly skilled and creative Web Developer with 5+ years of
             experience in crafting visually stunning and functionally robust
             websites and web applications.
@@ -40,7 +51,11 @@ export function Resume() {
           <Button
             variant="text"
             color="gray"
-            className="flex items-center gap-2"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
+            className="flex items-center gap-2"
+            placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
+          >
             view more
             <ArrowRightIcon
               strokeWidth={3}

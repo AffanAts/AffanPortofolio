@@ -11,12 +11,16 @@ function Hero() {
           <Typography 
             variant="h1"
             color="blue-gray"
-            className="mb-4 lg:text-3xl !leading-tight text-3xl"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
+            className="mb-4 lg:text-3xl !leading-tight text-3xl"   placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}          >
             Selamat Datang di Portofolio Pengembangan Website Saya!
           </Typography>
           <Typography
             variant="lead"
-            className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
+            className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"   placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}          >
             Saya Affan Haidar. Saya memiliki ketertarikan di bidang
             pengembangan web. Saya memiliki kemampuan bekerja sama dalam tim,
             kreatif, adaptif, dan memiliki kemampuan analisis yang baik. Saya

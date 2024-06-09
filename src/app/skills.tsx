@@ -54,15 +54,21 @@ export function Skills() {
   return (
     <section className="px-8">
       <div className="container mx-auto mb-20 text-center">
-        <Typography color="blue-gray" className="mb-2 font-bold uppercase"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+        <Typography color="blue-gray" className="mb-2 font-bold uppercase"   placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}>
           my skills
         </Typography>
-        <Typography variant="h1" color="blue-gray" className="mb-4"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+        <Typography variant="h1" color="blue-gray" className="mb-4"   placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}>
           What I do
         </Typography>
         <Typography
           variant="lead"
-          className="mx-auto w-full !text-gray-500 lg:w-10/12"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}        >
+          className="mx-auto w-full !text-gray-500 lg:w-10/12"   placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}        >
           I&apos;m not just a developer; I&apos;m a digital dreamweaver.
           Crafting immersive online experiences is not just a job but my
           calling. Discover below how I can help you.
