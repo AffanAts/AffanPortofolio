@@ -30,9 +30,9 @@ export function TimelinePelatihan() {
     {
       title: "Badan Nasional Sertifikasi Profesi",
       description:
-        "The key to more success is to have a lot of pillows. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I'm never giving up, I'm just getting started. I'm up to something. Fan luv.",
+        "Junior Web Developer merupakan salah satu Skema Pelatihan yang berbasis Standar Kompetensi Kerja Nasional Indonesia (SKKNI) dengan skema Junior Web Developer. Peserta pelatihan Junior Web Developer akan mampu membangun dan mengelola aplikasi berbasis web dengan bahasa pemrograman.",
       avatar:
-        "https://i0.wp.com/ahsmanajemen.com/wp-content/uploads/2021/03/3.3.png?fit=500%2C500&ssl=1",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdHBb4i_YPZiDASeyE1vBIVE8D0dGPVcQuYA&s",
     },
     {
       title: "Timeline Title 2",
