@@ -7,8 +7,7 @@ import Clients from "./clients";
 import Skills from "./skills";
 import Projects from "./projects";
 import Resume from "./resume";
-import Testimonial from "./testimonial";
-import PopularClients from "./popular-clients";
+import {TabsDefault} from "./tabs";
 import ContactForm from "./contact-form";
  
 export default function Portfolio() {
@@ -16,12 +15,12 @@ export default function Portfolio() {
     <>
       <Navbar />
       <Hero />
-      {/* <Clients /> */}
       <Skills />
       <Projects />
       <Resume />
       {/* <Testimonial />
       <PopularClients /> */}
+      <TabsDefault></TabsDefault>
       <ContactForm />
       <Footer />
     </>
