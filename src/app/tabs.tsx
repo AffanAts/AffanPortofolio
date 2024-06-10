@@ -6,12 +6,13 @@ import {
   Tab,
   TabPanel,
 } from "@material-tailwind/react";
-import { TimelinePendidikan, TimelinePelatihan} from "../components/index";
+import { TimelinePendidikan, TimelinePelatihan } from "../components/index";
 
 export function TabsDefault() {
   return (
     <Tabs value="html">
-      <TabsHeader className="max-w-md mx-auto flex justify-center space-x-2"
+      <TabsHeader
+        className="max-w-md mx-auto flex justify-center space-x-2"
         placeholder=""
         onPointerEnterCapture={() => {}}
         onPointerLeaveCapture={() => {}}
@@ -50,13 +51,9 @@ export function TabsDefault() {
           <TimelinePendidikan />
         </TabPanel>
         <TabPanel value="react">
-          <TimelinePelatihan/>
+          <TimelinePelatihan />
         </TabPanel>
-        <TabPanel value="vue">
-          We&apos;re not always in the position that we want to be at. We&apos;re
-          constantly growing. We&apos;re constantly making mistakes. We&apos;re constantly
-          trying to express ourselves and actualize our dreams.
-        </TabPanel>
+        <TabPanel value="vue">afwfawfawfafaw dreams.</TabPanel>
       </TabsBody>
     </Tabs>
   );
